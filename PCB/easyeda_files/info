@@ -1,0 +1,138 @@
+{
+  "uuid": "cead4f5da504b562d848ed84cc83e09a",
+  "path": "Offline/startracker",
+  "name": "startracker",
+  "content": "",
+  "created_at": "2023-02-17 19:26:26",
+  "updated_at": "2023-02-25 18:10:08",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "0c9dde3c737b18ca135fa1b7d4d1cc49",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a68dc5e6a9944c46b7604648a43dcd65": 1,
+        "f5b1d9403e49471cab43bc5a1bec336f": 2,
+        "9aea5998e95a4dd9adebcb09a0260992": 1,
+        "f942f8e244294bb7b1d0d99120824d33": 1,
+        "404aa9221ff94de597b8734806e7c74f": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_1x4",
+          2,
+          "HDR-M-2.54_1X4",
+          "J1,J4",
+          {
+            "BOM_Supplier Part": "C124378",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x1",
+          4,
+          "HDR-M-2.54_1X1",
+          "J2,J5,J6,J7",
+          {
+            "BOM_Supplier Part": "C81276",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          1,
+          "HDR-M-2.54_1X3",
+          "J3",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "XL6009模块",
+          1,
+          "XFMR-SMD_XL6009",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2908146",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "xl6009模块",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "945bd29125d943108e39b091dcf87d3b",
+            "uuid": "9aea5998e95a4dd9adebcb09a0260992"
+          }
+        ],
+        [
+          "WEMOS_D1_MINI_PRO4",
+          1,
+          "DIP-16_WEMOS_D1_MINI_PRO4",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2837266",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "Wemos_D1_mini_Pro4",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "562d77a546a24e4f83c78207be689c00",
+            "uuid": "f942f8e244294bb7b1d0d99120824d33"
+          }
+        ]
+      ],
+      "updateTime": 1676728669,
+      "createTime": 1676658387,
+      "histories": [],
+      "created_at": "2023-02-17 19:26:27",
+      "updated_at": "2023-02-18 14:57:49"
+    },
+    {
+      "uuid": "98cd2cd15a7b71bd981085189d2717c1",
+      "puuid": "cead4f5da504b562d848ed84cc83e09a",
+      "title": "PCB_startracker_4",
+      "filename": "PCB_startracker_4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "282f7786cb6144d097ae00194c3e3fb3": 2,
+        "19c77e72422b43b59c26b9fa67af5de4": 4,
+        "9f77654394344f25b3de138e0fe05ff6": 1,
+        "562d77a546a24e4f83c78207be689c00": 1
+      },
+      "BOM": [],
+      "updateTime": 1677345008,
+      "createTime": 1676811400,
+      "histories": [],
+      "created_at": "2023-02-19 13:56:40",
+      "updated_at": "2023-02-25 18:10:08"
+    }
+  ],
+  "sort": [],
+  "title": "startracker",
+  "foldername": "startracker",
+  "schfilename": "startracker.json",
+  "schfilemtime": 1676728669516
+}
