@@ -11,10 +11,12 @@ led.off()
 direction.on()
 
 motor_stepsize = 1.8 # degrees
-microstepping = 16
+microstepping = 16 # step multiplier, set by dip switches
 step_size_eff = motor_stepsize/microstepping
+step_size_eff = step_size_eff/(3*3*11.25) # include transmission
 hrs_per_rev = 24 # earth revolves ones a day
 step_interval = (3600*hrs_per_rev) / (360/step_size_eff)
+print("Step Interval:", step_interval)
 
 def stepOne(s=0.01):
   step.on()
@@ -32,10 +34,10 @@ def stepn(n, s=0.01):
         stepOne(s)
 
 
-stepn(500, 0.01)
 direction.off()
 stepn(500, 0.01)
 direction.on()
+stepn(500, 0.01)
 
 while True:
     stepn(324000, step_interval)
